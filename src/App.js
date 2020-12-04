@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NavBar from "./Components/NavBar/NavBar";
+import Routes from "./Components/Routes";
+import Categories from "./Components/Categories/Categories";
+import ResultItem from "./Components/ResultItem/ResultItem";
+
+import { useSelector } from "react-redux";
 
 function App() {
+  const coursesCategories = useSelector((state) => state.coursesCategory);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+
+      <Categories />
+      {coursesCategories.courseCategory ? (
+        <div>
+          <div className="title-div">
+            {coursesCategories.courseCategory.name}
+          </div>
+
+          {coursesCategories.courseCategory.courses.map((course) => {
+            return (
+              <ResultItem key={course.course_id} isResult courseData={course} />
+            );
+          })}
+        </div>
+      ) : (
+        ""
+      )}
+
+      <Routes />
     </div>
   );
 }
