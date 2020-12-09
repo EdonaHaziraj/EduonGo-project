@@ -49,7 +49,7 @@ export default function NativeSelects() {
             id: "",
           }}
         >
-          <option aria-label="None" value="" />
+          <option value={"ALL"} selected>ALL</option>
           <option value={"OUR COURSES"}>OUR COURSES</option>
           <option value={"LOCKED"}>LOCKED</option>
           <option value={"PAID"}>PAID</option>

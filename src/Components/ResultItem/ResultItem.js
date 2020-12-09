@@ -48,7 +48,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-export default function FullScreenDialog(props) {
+export default function ResultItem(props) {
   const dispatch = useDispatch();
 
   const {

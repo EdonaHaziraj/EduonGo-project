@@ -1,4 +1,5 @@
 import axios from "axios";
+
 const API_URL =
   "https://rest-api.eduongo.com/course_catalogue/get_course_catalogue?domain=nerxhan.eduongo.com";
 
