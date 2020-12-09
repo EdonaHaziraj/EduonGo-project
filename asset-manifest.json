@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/EduonGo-project/static/css/main.900ec537.chunk.css",
-    "main.js": "/EduonGo-project/static/js/main.5b647dff.chunk.js",
-    "main.js.map": "/EduonGo-project/static/js/main.5b647dff.chunk.js.map",
+    "main.css": "/EduonGo-project/static/css/main.70965d2e.chunk.css",
+    "main.js": "/EduonGo-project/static/js/main.62ca9be3.chunk.js",
+    "main.js.map": "/EduonGo-project/static/js/main.62ca9be3.chunk.js.map",
     "runtime-main.js": "/EduonGo-project/static/js/runtime-main.d425896c.js",
     "runtime-main.js.map": "/EduonGo-project/static/js/runtime-main.d425896c.js.map",
-    "static/js/2.23268830.chunk.js": "/EduonGo-project/static/js/2.23268830.chunk.js",
-    "static/js/2.23268830.chunk.js.map": "/EduonGo-project/static/js/2.23268830.chunk.js.map",
+    "static/js/2.b179aedb.chunk.js": "/EduonGo-project/static/js/2.b179aedb.chunk.js",
+    "static/js/2.b179aedb.chunk.js.map": "/EduonGo-project/static/js/2.b179aedb.chunk.js.map",
     "static/js/3.40bf287f.chunk.js": "/EduonGo-project/static/js/3.40bf287f.chunk.js",
     "static/js/3.40bf287f.chunk.js.map": "/EduonGo-project/static/js/3.40bf287f.chunk.js.map",
     "index.html": "/EduonGo-project/index.html",
-    "static/css/main.900ec537.chunk.css.map": "/EduonGo-project/static/css/main.900ec537.chunk.css.map",
-    "static/js/2.23268830.chunk.js.LICENSE.txt": "/EduonGo-project/static/js/2.23268830.chunk.js.LICENSE.txt"
+    "static/css/main.70965d2e.chunk.css.map": "/EduonGo-project/static/css/main.70965d2e.chunk.css.map",
+    "static/js/2.b179aedb.chunk.js.LICENSE.txt": "/EduonGo-project/static/js/2.b179aedb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d425896c.js",
-    "static/js/2.23268830.chunk.js",
-    "static/css/main.900ec537.chunk.css",
-    "static/js/main.5b647dff.chunk.js"
+    "static/js/2.b179aedb.chunk.js",
+    "static/css/main.70965d2e.chunk.css",
+    "static/js/main.62ca9be3.chunk.js"
   ]
 }
