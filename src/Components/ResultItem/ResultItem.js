@@ -1,4 +1,5 @@
 import {
+  Grid,
   Card,
   CardContent,
   CardMedia,
@@ -18,9 +19,9 @@ import Slide from "@material-ui/core/Slide";
 const styles = {
   wrapper: {
     display: "flex",
-    margin: "50px auto",
-    padding: 20,
-    width: "50%",
+    padding: "20px 0",
+    width: "100%",
+    margin: 40
   },
 };
 
@@ -28,9 +29,9 @@ const styles2 = {
   wrapper2: {
     display: "flex",
     margin: "50px auto",
-    padding: 20,
     width: "100%",
     height: "100%",
+    backgroundColor: "rgba(229, 229, 229, 0.5)"
   },
 };
 
@@ -73,8 +74,8 @@ export default function ResultItem(props) {
 
   return (
     <div>
-      <Card style={styles.wrapper} onClick={handleClickOpen}>
-        <CardMedia style={{ width: 200 }} image={image} title="test" />
+        <Card style={styles2.wrapper2} onClick={handleClickOpen} variant="outlined">
+        <CardMedia style={{ width: 200 }} image={image} title={course_name} />
         <div style={styles.left}>
           <CardContent>
             <Typography variant="h4">{title}</Typography>

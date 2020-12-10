@@ -56,13 +56,6 @@ export default function NativeSelects() {
           <option value={"SUBSCRIPTION"}>SUBSCRIPTION</option>
         </Select>
       </FormControl>
-
-      <Link to="/search">
-        <IconButton ml="auto" edge="end">
-          <Search />
-          <Typography>Search courses</Typography>
-        </IconButton>
-      </Link>
     </div>
   );
 }
